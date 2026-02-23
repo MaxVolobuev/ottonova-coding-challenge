@@ -93,3 +93,21 @@ GitHub Actions pipeline:
 - executes Cypress tests in Chrome
 
 The pipeline ensures fast feedback on pull requests and stable execution across environments.
+
+---
+
+## 5. QA Strategy
+
+A detailed QA strategy describing the testing approach, prioritization, automation decisions, and observed edge cases is available here:
+
+**[QA_STRATEGY.md](./QA_STRATEGY.md)**
+
+The strategy explains:
+
+- test pyramid and automation layers
+- risk-based prioritization
+- automation vs manual testing decisions
+- edge cases discovered during exploratory testing
+- security, privacy, and GDPR considerations
+
+The implemented Cypress tests represent a subset of this strategy, focusing on critical UI flows and validation scenarios.
